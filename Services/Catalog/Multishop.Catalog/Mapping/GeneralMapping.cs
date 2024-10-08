@@ -9,7 +9,7 @@ namespace Multishop.Catalog.Mapping
 {
     public class GeneralMapping :Profile
     {
-        //Entitlerimzden nesne örnekleri oluşturmak yerine yani newlemek yerine entityleimizin propertylerini Dto daki propertylerimizle eşleştiriyoruz.
+        //Entitlerimizden nesne örnekleri oluşturmak yerine yani newlemek yerine entitylerimizin propertylerini Dto daki propertylerimizle eşleştiriyoruz.
         public GeneralMapping()
         {
             CreateMap<Category, ResultCategoryDto>().ReverseMap();

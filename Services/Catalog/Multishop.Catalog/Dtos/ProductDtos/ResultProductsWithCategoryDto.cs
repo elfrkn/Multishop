@@ -1,5 +1,4 @@
 ﻿using MultiShop.Catalog.Dtos.CategoryDtos;
-using MultiShop.Catalog.Entites;
 
 namespace MultiShop.Catalog.Dtos.ProductDtos
 {
