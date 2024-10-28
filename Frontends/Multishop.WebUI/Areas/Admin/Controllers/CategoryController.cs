@@ -6,10 +6,11 @@ using System.Text;
 
 namespace Multishop.WebUI.Areas.Admin.Controllers
 {
+    [AllowAnonymous]
     [Area("Admin")]
     [Route("Admin/Category")]
 
-    [AllowAnonymous]
+ 
     public class CategoryController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -37,6 +38,7 @@ namespace Multishop.WebUI.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Route("CreateCategory")]
         public IActionResult CreateCategory()
         {
             return View();
